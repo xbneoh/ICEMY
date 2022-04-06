@@ -1,0 +1,342 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-169628776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Contact" href="00_Contact/Contact.html" />
+
+    <meta name="generator" content="sphinx-4.5.0, furo 2021.11.16"/>
+        <title>ICE documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=916d6ed8f59335acffa15474ff504849343d4c76" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  body[data-theme="dark"] {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+</style></head>
+  <body>
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="#"><div class="brand">ICE  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+  
+  
+  <span class="sidebar-brand-text">ICE  documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="00_Contact/Contact.html">Contact</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <div class="toctree-wrapper compound">
+</div>
+<div class="section" id="infrastructure-resilience">
+<h1>Infrastructure Resilience<a class="headerlink" href="#infrastructure-resilience" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-center" id="id23">
+<img alt="_images/SP.jpg" class="no-scaled-link" src="_images/SP.jpg" style="width: 800px; height: 500px;"/>
+<p class="caption"><span class="caption-text"><em>The view of St Paul’s Cathedral from the Millennium Bridge.</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+</div>
+<hr class="docutils"/>
+<p>As one cruises down the Millennium Bridge, it is hard not to be awestruck by the grandeur of the St. Paul’s Cathedral and promenade that sweeps elegantly along the sinuous Thames River. The Grade I listed cathedral serves not only as an iconic landmark in the City of London, but more importantly, it is - in all its splendor and glory - a testament of English Baroque architecture that has truly stood the test of time, both from the aesthetic and infrastructural resilience point of view. Therefore, if we trace the arc of history of the St. Paul’s Cathedral that spanned more than 300 years, there are numerous takeaways that civil engineers can acquire from the cathedral’s rebuilding – particularly in shaping infrastructures that are more robust against external stresses and future shocks wrought by the changing climate.</p>
+<hr class="docutils"/>
+<div class="section" id="the-rebuilding-of-london-act-1666">
+<h2>The Rebuilding of London Act 1666<a class="headerlink" href="#the-rebuilding-of-london-act-1666" title="Permalink to this headline">¶</a></h2>
+<p><em>Weathering short-term shocks</em></p>
+<p>In the year 1666, the St. Paul’s Cathedral was rebuilt when the Great Fire of London reduced much of medieval London into ashes, torching narrow alleys and wooden buildings that stood in its path. The fire obliterated huge swathes of land within the city walls and beyond. As 373 acres of land were burnt down, about 80,000 people were left homeless. <a class="footnote-reference brackets" href="#id12" id="id1">1</a> Given the scale of the catastrophe, rebuilding of London had to be swift yet orderly.</p>
+<p>With the royal assent from King Charles II of England, the Rebuilding of London Act 1666 was passed to set out clear construction standards that have since shaped the cityscape of modern London. The act put together multiple strategies to rebuild London into one that is more resilient against fire hazards. Street widening schemes were proposed to prevent overcrowding and building heights were regulated to halt the spread of fire in the event of a conflagration. Furthermore, new buildings were proposed to be constructed with materials such as brick or stone to future-proof London against fire outbreaks. <a class="footnote-reference brackets" href="#id13" id="id2">2</a></p>
+</div>
+<hr class="docutils"/>
+<div class="section" id="a-resilience-framework">
+<h2>A Resilience Framework<a class="headerlink" href="#a-resilience-framework" title="Permalink to this headline">¶</a></h2>
+<p><em>Weaving together mid and long-term resilience strategies</em></p>
+<p>Taking a page from the Rebuilding of London Act 1666, the importance of a clear framework for infrastructural resilience cannot be overstated. In the summer of 2020, the Institution of Civil Engineers, UK (ICE UK) had taken the lead to run a public consultation to assist the Infrastructure Client Group (ICG) in drawing up a White Paper to re-strategize infrastructure delivery with climate resilience in sharp focus. <a class="footnote-reference brackets" href="#id14" id="id3">3</a> The White Paper explored ways that would enable a more efficient delivery of infrastructure that are in close alignment with the UK’s mid and long-term climate-change commitments, such that both the 2030 UN Sustainable Development Goals (SDG) and the net-zero emissions target by the year 2050 can be met.</p>
+<p>The public consultation initiated by the ICE UK in 2020 is an exemplar of how civil engineering professionals can be mobilized to offer their expertise to shape the UK government’s policy on climate emergency. To draw up a comprehensive framework on infrastructural resilience, especially in the aftermath of COVID-19, it is key to bring together expert stakeholders, regulators and infrastructure operators so that all the underlying assumptions and evidences that underpin the resilience framework can be rigorously debated. In that regard, civil engineers can draw upon their experience - accrued from designing, operating and decommissioning infrastructures - and lend their expertise to regulators to help assess the costs and benefits of different standards for resilience. Close collaboration between the government and industry experts is the cornerstone of a robust framework for resilient infrastructure which is due for publication by the Secretaries of State UK in 2022. <a class="footnote-reference brackets" href="#id15" id="id4">4</a></p>
+</div>
+<hr class="docutils"/>
+<div class="section" id="digitalization-of-infrastructure-network">
+<h2>Digitalization of Infrastructure Network<a class="headerlink" href="#digitalization-of-infrastructure-network" title="Permalink to this headline">¶</a></h2>
+<p><em>Identifying Inter-dependencies of Infrastructure &amp; Systems-Thinking Approach</em></p>
+<p>In the aftermath of the Great Fire of London, the British parliament was quick to identify that in order to rebuild London quickly, reconstruction should not be hindered by the 17th century legal procedures that were susceptible to never-ending delays. This systems-thinking approach was crucial in spotting the legal pain points in medieval London. To overcome this, the British parliament established the Fire Court to resolve disputes between landowners and tenants to ensure the smooth rebuilding of London. <a class="footnote-reference brackets" href="#id16" id="id5">5</a></p>
+<p>Systems thinking is especially paramount in formulating a resilience framework for modern-day infrastructure systems because they are often inter-connected and inter-dependent. The August 2019 power outage across England and Wales is a case in point: power failure in the national electricity transmission system caused trains along the Govia Thameslink Railway to shut down and passengers were stranded during transit. <a class="footnote-reference brackets" href="#id17" id="id6">6</a></p>
+<p>To identify inter-dependencies across multiple infrastructure systems, civil engineers can leverage on the existing ecosystem of digital twins and the Geographic Information System (GIS) technology. Turning our gaze towards disaster risk reduction in Malaysia, the National Disaster Management Agency (NADMA) upkeeps the Disaster Portal that hosts a comprehensive catalogue of disaster and hazard-related information. <a class="footnote-reference brackets" href="#id18" id="id7">7</a> Civil engineers can access these real-time data to incorporate them into design considerations and methodologies.</p>
+<p>Furthermore, GIS technology also allows civil engineers to visualize spatial data so that they can better assess vulnerability of infrastructure systems based on the infrastructure’s proximity to areas prone to landslide and flooding. For instance, the Slope Engineering Branch established the Slope Management and Risk Tracking (SMART) system that catalogues the landslide risk of more than 25,000 slopes across Malaysia. <a class="footnote-reference brackets" href="#id19" id="id8">8</a> The availability of such geo-hazard information allows civil engineers to lead the planning of disaster management measures, in the event of a landslide, and to upgrade protection systems for existing slopes to safeguard critical transport links in the vicinity. This would significantly reduce the degree of damage towards transport and highway systems that are oftentimes disrupted by landslides during monsoon seasons.</p>
+</div>
+<hr class="docutils"/>
+<div class="section" id="no-build-and-fail-safe-options">
+<h2>‘No-Build’ and ‘Fail-Safe’ Options<a class="headerlink" href="#no-build-and-fail-safe-options" title="Permalink to this headline">¶</a></h2>
+<p><em>Retrofitting Existing Assets &amp; Building Redundancy in Systems</em></p>
+<p>While the Great Fire in 1666 provided the City of London an opportunity to reshape its cityscape entirely, many existing infrastructure systems could not afford to be interrupted for reconstruction because they might be under operation or are accommodating occupants.</p>
+<p>In such cases, the ‘no-build’ option would be preferable. The ‘no-build’ option ranks high up the carbon reduction hierarchy because it prioritizes options that extend the life of an existing asset, either through retrofitting or using alternative means to accomplish similar outcome. <a class="footnote-reference brackets" href="#id20" id="id9">9</a> For example, the Tai Kwun – Centre for Heritage of Arts in Hong Kong was revitalized by Arup thorough multi-disciplinary engineering of the building’s façade, foundation and structure. The lifecycle of the former Central Police Station was extended through better fire safety management so that it can service occupants whilst complying to modern fire safety standards. <a class="footnote-reference brackets" href="#id21" id="id10">10</a></p>
+<p>In flood-prone areas where flooding is difficult to be averted, civil engineers can adopt ‘fail-safe’ option by building flood defenses that can divert floor water to underground tunnels for discharge into the sea. The SMART 2 tunnel system recently proposed by Gamuda to channel floodwaters away from low-lying areas in Taman Sri Muda, Shah Alam to the sea is one of the viable measures to mitigate flood risk using the ‘fail-safe’ approach. <a class="footnote-reference brackets" href="#id22" id="id11">11</a></p>
+</div>
+<hr class="docutils"/>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<dl class="footnote brackets">
+<dt class="label" id="id12"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><strong>Archer, I. W. (2022)</strong>. Facing up to catastrophe: The Great Fire of London. Retrieved from Faculty of History - University of Oxford: <a class="reference external" href="https://www.history.ox.ac.uk/facing-catastrophe-great-fire-london">https://www.history.ox.ac.uk/facing-catastrophe-great-fire-london</a></p>
+</dd>
+<dt class="label" id="id13"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p><strong>UK Parliament. (2022)</strong>. UK Parliament. Retrieved from An Act for Rebuilding the City of London: <a class="reference external" href="https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/">https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/</a></p>
+</dd>
+<dt class="label" id="id14"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p><strong>Richards, C. (2020)</strong>. Covid-19 and the new normal for infrastructure systems. Retrieved from Institution of Civil Engineers, United Kingdom: <a class="reference external" href="https://www.ice.org.uk/news-and-insight/policy/covid-19-and-the-new-normal-for-infrastructure">https://www.ice.org.uk/news-and-insight/policy/covid-19-and-the-new-normal-for-infrastructure</a></p>
+</dd>
+<dt class="label" id="id15"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p><strong>National Infrastructure Commission. (2020)</strong>. Anticipate, React, Recover - Resilient Infrastructure Systems. London: National Infrastructure Commission.</p>
+</dd>
+<dt class="label" id="id16"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dd><p><strong>Archer, I. W. (2022)</strong>. Facing up to catastrophe: The Great Fire of London. Retrieved from Faculty of History - University of Oxford: <a class="reference external" href="https://www.history.ox.ac.uk/facing-catastrophe-great-fire-london">https://www.history.ox.ac.uk/facing-catastrophe-great-fire-london</a></p>
+</dd>
+<dt class="label" id="id17"><span class="brackets"><a class="fn-backref" href="#id6">6</a></span></dt>
+<dd><p><strong>Ofgem. (2020)</strong>. 9 August 2019 Power Outage Report. London: Office of Gas and Electricity Markets.</p>
+</dd>
+<dt class="label" id="id18"><span class="brackets"><a class="fn-backref" href="#id7">7</a></span></dt>
+<dd><p><strong>NADMA. (2022)</strong>. Cyber Security and Disaster Response and Recovery. Retrieved from National Disaster Management Agency: <a class="reference external" href="https://www.malaysia.gov.my/portal/subcategory/247">https://www.malaysia.gov.my/portal/subcategory/247</a></p>
+</dd>
+<dt class="label" id="id19"><span class="brackets"><a class="fn-backref" href="#id8">8</a></span></dt>
+<dd><p><strong>Abdullah, C. H. (2013)</strong>. Landslide RIsk Management in Malaysia. The Built Environment, 255-265.</p>
+</dd>
+<dt class="label" id="id20"><span class="brackets"><a class="fn-backref" href="#id9">9</a></span></dt>
+<dd><p><strong>National Infrastructure Commission. (2022)</strong>. What Makes Good Design? London: Institution of Civil Engineers.</p>
+</dd>
+<dt class="label" id="id21"><span class="brackets"><a class="fn-backref" href="#id10">10</a></span></dt>
+<dd><p><strong>Arup. (2022)</strong>. From police station to cultural hub: Transforming a Hong Kong landmark. Retrieved from Arup: <a class="reference external" href="https://www.arup.com/projects/central-police-station">https://www.arup.com/projects/central-police-station</a></p>
+</dd>
+<dt class="label" id="id22"><span class="brackets"><a class="fn-backref" href="#id11">11</a></span></dt>
+<dd><p><strong>Gamuda. (2022)</strong>. Finding a SMART solution to floods. Retrieved from Gamuda: <a class="reference external" href="https://gamuda.com.my/2022/03/finding-a-smart-solution-to-floods/news/">https://gamuda.com.my/2022/03/finding-a-smart-solution-to-floods/news/</a></p>
+</dd>
+</dl>
+</div>
+</div>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="00_Contact/Contact.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Contact</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2022, Xiao Binn Neoh |
+          Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+          <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
+            | <a class="muted-link" href="_sources/index.rst.txt"
+               rel="nofollow">
+              Show Source
+            </a>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Infrastructure Resilience</a><ul>
+<li><a class="reference internal" href="#the-rebuilding-of-london-act-1666">The Rebuilding of London Act 1666</a></li>
+<li><a class="reference internal" href="#a-resilience-framework">A Resilience Framework</a></li>
+<li><a class="reference internal" href="#digitalization-of-infrastructure-network">Digitalization of Infrastructure Network</a></li>
+<li><a class="reference internal" href="#no-build-and-fail-safe-options">‘No-Build’ and ‘Fail-Safe’ Options</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>
