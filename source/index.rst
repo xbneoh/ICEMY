@@ -64,7 +64,7 @@ Furthermore, GIS technology also allows civil engineers to visualize spatial dat
 -----------------
 
 ‘No-Build’ and ‘Fail-Safe’ Options
-==================================
+===================================
 *Retrofitting Existing Assets & Building Redundancy in Systems*
 
 While the Great Fire in 1666 provided the City of London an opportunity to reshape its cityscape entirely, many existing infrastructure systems could not afford to be interrupted for reconstruction because they might be under operation or are accommodating occupants. 
@@ -75,11 +75,11 @@ In flood-prone areas where flooding is difficult to be averted, civil engineers 
 
 -----------------
 
-The medieval London society that rode out the Great Fire of London offered a microcosm of the human ingenuity required to rebound from adversity and rebuild from ashes. While climate change poses a much greater existential threat to humankind, we are blessed with technological advances that deliver more resilient infrastructure to shield us from external stresses brought about by global warming. However, to fully leverage on our technological capabilities to anticipate for future shocks, governments, regulators and engineering professionals need to collaborate closely to roll out a comprehensive framework for infrastructural resilience. 
+The medieval London society that rode out the Great Fire of London offered a microcosm of the human ingenuity required to rebound from adversity and rebuild from ashes. While climate change poses a much greater existential threat to humankind, we are blessed with technological advances that deliver more resilient infrastructure to shield us from external stresses brought about by global warming. 
 
-Building infrastructure systems that can weather the worst ravages of climate changes is challenging but by no means insurmountable. Take inspiration from the medieval London society that blazed the trail to build back stronger. 
+However, to fully leverage on our technological capabilities to anticipate for future shocks, governments, regulators and engineering professionals need to collaborate closely to roll out a comprehensive framework for infrastructural resilience. Digitalization of our infrastructure network is crucial, while ‘no-built’ or ‘fail-safe’ options should be prioritized where possible. 
 
-Take a stroll down the Millennium Bridge!
+Building infrastructure systems that can weather the worst ravages of climate changes is challenging but by no means insurmountable. Perhaps draw inspiration from the medieval London society that blazed the trail to build back stronger. Perhaps take a stroll down the Millennium Bridge!
 
 -----------------
 
