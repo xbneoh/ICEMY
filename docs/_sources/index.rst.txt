@@ -83,11 +83,11 @@ In flood-prone areas where flooding is difficult to be averted, civil engineers 
 Closing Remarks
 ===============
 
-The medieval London society that rode out the Great Fire of London offered a microcosm of the human ingenuity required to rebound from adversity and rebuild from ashes. While climate change poses a much greater existential threat to humankind, we are blessed with technological advances that deliver more resilient infrastructure to shield us from external stresses brought about by global warming. 
+The medieval London society that rode out the Great Fire of London offered a microcosm of the human ingenuity required to rebound from adversity and rebuild from ashes. While climate change poses a much greater existential threat to humankind, we are blessed with technological advances that can deliver more resilient infrastructure to shield us from external stresses brought about by global warming. 
 
 However, to fully leverage on our technological capabilities to anticipate for future shocks, governments, regulators and engineering professionals need to collaborate closely to roll out a comprehensive framework for infrastructural resilience. Digitalization of our infrastructure network is crucial, while ‘no-built’ or ‘fail-safe’ options should be prioritized where possible. 
 
-Building infrastructure systems that can weather the worst ravages of climate changes is challenging but by no means insurmountable. Perhaps draw inspiration from the medieval London society that blazed the trail to build back stronger. Perhaps take a stroll down the Millennium Bridge!
+Building infrastructure systems that can weather the worst ravages of climate changes is challenging but by no means insurmountable. In times of need, perhaps we can draw inspiration from the medieval London society that blazed the trail to build back stronger. Perhaps take a stroll down the Millennium Bridge!
 
 -----------------
 
