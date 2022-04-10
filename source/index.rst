@@ -87,7 +87,7 @@ The medieval London society that rode out the Great Fire of London offered a mic
 
 However, to fully leverage on our technological capabilities to anticipate for future shocks, governments, regulators and engineering professionals need to collaborate closely to roll out a comprehensive framework for infrastructural resilience. Digitalization of our infrastructure network is crucial, while ‘no-build’ or ‘fail-safe’ options should be prioritized where possible. 
 
-Building infrastructure systems that can weather the worst ravages of climate changes is challenging but by no means insurmountable. In times of need, perhaps we can draw inspiration from the medieval London society that blazed the trail to build back stronger. Perhaps take a stroll down the Millennium Bridge!
+Building infrastructure systems that can weather the worst ravages of climate change is challenging but by no means insurmountable. In times of need, perhaps we can draw inspiration from the medieval London society that blazed the trail to build back stronger. Perhaps take a stroll down the Millennium Bridge!
 
 -----------------
 
