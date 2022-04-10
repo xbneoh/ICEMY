@@ -13,15 +13,20 @@
 Infrastructure Resilience
 #########################
 
+*5-min read*
+
 .. figure:: /_images/SP.jpg
       :align: center
-      :height: 500 px
-      :width: 800 px
+      :height: 390 px
+      :width: 500 px
       :class: no-scaled-link
 
       *The view of St Paul's Cathedral from the Millennium Bridge.*
 
 -----------------
+
+Background
+==========
 
 As one cruises down the Millennium Bridge, it is hard not to be awestruck by the grandeur of the St. Paul’s Cathedral and promenade that sweeps elegantly along the sinuous River Thames. The Grade I listed cathedral serves not only as an iconic landmark in the City of London, but more importantly, it is - in all its splendor and glory - a testament of English Baroque architecture that has truly stood the test of time, both from the aesthetic and infrastructural resilience point of view. Therefore, if we trace the arc of history of the St. Paul’s Cathedral that spanned more than 300 years, there are numerous takeaways that civil engineers can acquire from the cathedral’s rebuilding – particularly in shaping infrastructures that are more robust against external stresses and future shocks wrought by the changing climate.
 
@@ -75,6 +80,9 @@ In flood-prone areas where flooding is difficult to be averted, civil engineers 
 
 -----------------
 
+Closing Remarks
+===============
+
 The medieval London society that rode out the Great Fire of London offered a microcosm of the human ingenuity required to rebound from adversity and rebuild from ashes. While climate change poses a much greater existential threat to humankind, we are blessed with technological advances that deliver more resilient infrastructure to shield us from external stresses brought about by global warming. 
 
 However, to fully leverage on our technological capabilities to anticipate for future shocks, governments, regulators and engineering professionals need to collaborate closely to roll out a comprehensive framework for infrastructural resilience. Digitalization of our infrastructure network is crucial, while ‘no-built’ or ‘fail-safe’ options should be prioritized where possible. 
@@ -88,7 +96,8 @@ References
 
 .. [1] **Archer, I. W. (2022)**. Facing up to catastrophe: The Great Fire of London. Retrieved from Faculty of History - University of Oxford: https://www.history.ox.ac.uk/facing-catastrophe-great-fire-london
 
-.. [2] **UK Parliament. (2022)**. UK Parliament. Retrieved from An Act for Rebuilding the City of London: https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/
+.. [2] **UK Parliament. (2022)**. UK Parliament. 
+       Retrieved from An Act for Rebuilding the City of London: https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/
 
 .. [3] **Richards, C. (2020)**. Covid-19 and the new normal for infrastructure systems. Retrieved from Institution of Civil Engineers, United Kingdom: https://www.ice.org.uk/news-and-insight/policy/covid-19-and-the-new-normal-for-infrastructure
 
